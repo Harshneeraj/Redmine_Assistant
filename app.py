@@ -84,7 +84,7 @@ class Assistant:
                 break
         return {"messages": result}
     
-llm = ChatGroq(model="llama-3.3-70b-versatile", groq_api_key="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")
+llm = ChatGroq(model="llama-3.3-70b-versatile", groq_api_key="")
 
 primary_assistant_prompt = ChatPromptTemplate.from_messages(
     [
